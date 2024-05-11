@@ -1,0 +1,31 @@
+nav {
+  width: 100%;
+  background: #fff;
+  color: #000;
+  padding: 12px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+/* nav a span {
+  color: var(--primary);
+} */
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+}
+
+.transparant-nav {
+  opacity: 0.7;
+  backdrop-filter: blur(7px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
